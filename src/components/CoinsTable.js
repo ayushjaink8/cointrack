@@ -66,8 +66,6 @@ function CoinsTable() {
     ).slice((page - 1) * 10, (page - 1) * 10 + 10);
   };
 
-  if (Math.random() > 0.5) return new Error("Test Error Boundary");
-
   return (
     <ThemeProvider theme={darkTheme}>
       <Container style={{ textAlign: "center" }}>

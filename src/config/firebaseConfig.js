@@ -1,13 +1,3 @@
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAxtJqUtPsZV7reP0PkK7MBf7KlfUwkc8w",
-//   authDomain: "cointrack-ayush.firebaseapp.com",
-//   projectId: "cointrack-ayush",
-//   storageBucket: "cointrack-ayush.appspot.com",
-//   messagingSenderId: "344535800277",
-//   appId: "1:344535800277:web:48f94b8a17a7698dc1055c",
-//   measurementId: "G-60KB9VYK7Y"
-// };
-
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
